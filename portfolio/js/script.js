@@ -15,3 +15,12 @@
           modal.style.display = "none";
       }
   }
+
+  jQuery(document).ready(function() {
+      $(".fancybox").fancybox({
+          autoSize : true,
+          scrolling : 'auto',
+          fitToView : false,
+          maxWidth : '100%',
+      });
+  });
